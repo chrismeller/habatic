@@ -329,15 +329,16 @@
     express "4.17.1"
     multer "1.4.2"
 
-"@nestjs/platform-fastify@^6.7.1":
-  version "6.10.13"
-  resolved "https://registry.yarnpkg.com/@nestjs/platform-fastify/-/platform-fastify-6.10.13.tgz#83bbac46539c2edad118e589ef7eaffc2a79474a"
-  integrity sha512-Lc/+S5McmkmYN1q6+1eYVJxNMnyVIurIheHa2ATrX0V+oU1Y+pkTpZax8Tz8gy+FUZhg2OL7vjeHe+hVGOgMEQ==
+"@nestjs/platform-fastify@^6.11.11":
+  version "6.11.11"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-fastify/-/platform-fastify-6.11.11.tgz#659e48015b0fca3808eae15a767d40381f1cbf49"
+  integrity sha512-9j13Gr+XjZyjpBClrCbX3kNFti8XV3LdF2rEbb5Ifx0U64EgPTUpJ4YtaNFMXfCO8Hgk6ZVp7Yn628p75yRpRA==
   dependencies:
     fastify "2.11.0"
-    fastify-cors "3.0.0"
+    fastify-cors "3.0.2"
     fastify-formbody "3.1.0"
     path-to-regexp "3.2.0"
+    tslib "1.11.1"
 
 "@nestjs/testing@^6.0.0":
   version "6.10.13"
@@ -1899,10 +1900,10 @@ fast-safe-stringify@2.0.7, fast-safe-stringify@^2.0.4, fast-safe-stringify@^2.0.
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
   integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
 
-fastify-cors@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-3.0.0.tgz#63b914d8256be6c6ae7d4cb90e33eaa56a1261c7"
-  integrity sha512-bLV7OIZ7ojvLaf0jOEsqAO4ShrBSc6412R6SVDIrFK6vIUAezTAVgk9MqcklZnc3ch/N/IC9kGPu5AfhqAIHkg==
+fastify-cors@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-3.0.2.tgz#38f380512da513ab5ae4b071756a3dfc461cca4a"
+  integrity sha512-emqorS6s4W0+v+ZbTwHUwpmT3R1rCQtIh3K69e+QUxbufkxvweJ5MbFrLTEyolMlOCOGAk8NcnUJBDd1aRceCw==
   dependencies:
     fastify-plugin "^1.6.0"
     vary "^1.1.2"
@@ -4919,6 +4920,11 @@ tsconfig-paths@3.8.0:
     json5 "^1.0.1"
     minimist "^1.2.0"
     strip-bom "^3.0.0"
+
+tslib@1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
+  integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
 
 tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.10.0"
