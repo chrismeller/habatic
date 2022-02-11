@@ -3,7 +3,6 @@ import { UsersService } from '../users/users.service';
 import { TokenService } from './token.service';
 import { Token } from './interfaces/token.interface';
 import { ConfigService } from '../config/config.service';
-import { Promise } from 'bluebird';
 import * as crypto from 'crypto';
 import { User } from '../users/interfaces/user.interface';
 import { UserDto } from './dtos/user.dto';
@@ -29,7 +28,7 @@ export class AuthService {
       // if they're not verified, kick it back
       // @todo how to differentiate between this and an invalid password?
       if (!user.emailVerified) {
-        return false;
+        return null;
       }
 
       // then calculate the hash of the password
